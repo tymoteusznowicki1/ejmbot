@@ -38,8 +38,8 @@ local queueonteleport = syn.queue_on_teleport or queue_on_teleport
 --// Script Settings
 
 Environment.Settings = {
-	SendNotifications = true,
-	SaveSettings = true, -- Re-execute upon changing
+	SendNotifications = false,
+	SaveSettings = falsefalse, -- Re-execute upon changing
 	ReloadOnTeleport = true,
 	Enabled = true,
 	TeamCheck = false,
